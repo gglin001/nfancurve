@@ -4,6 +4,8 @@ systemctl start lightdm.service
 # export DISPLAY=:0
 # export XAUTHORITY=/var/run/lightdm/root/:0
 
+# USING bash, not work on zsh
+
 ```sh
 # seems not work
 sudo nvidia-xconfig -c :0 --cool-bits 24
